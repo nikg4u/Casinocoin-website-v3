@@ -6,9 +6,7 @@
  * Time: 6:23 PM
  */
 
-?>
-<?php
-require_once "src/conf/conf.php";
+define("WEBSITE_PATH", "http://localhost/personal/casinocoin/");
 require_once "src/inc/header.php";
 require_once "src/inc/nav.php";
 ?>

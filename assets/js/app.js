@@ -1,12 +1,12 @@
 var casinocoin = angular.module('myApp', ['ui.bootstrap', 'ngRoute']);
 
-casinocoin.controller('SearchController', function ($scope, $http) {
+casinocoin.controller('SearchController', function ($scope, $http, $window, $location) {
 
     $scope.sendMail = function (emailName, listName) {
         var data = {name: emailName, list: listName};
+        $http.post('https://casinocoin.org/src/inc/mail.php', data).then(function (data) {
         console.log(data);
-        $http.post('http://localhost/personal/casinocoin/src/inc/mail.php', data).then(function (data) {
-            console.log(data);
+            alert("Sent successfully");
         })
     }
 
@@ -16,6 +16,11 @@ casinocoin.controller('SearchController', function ($scope, $http) {
     function NavBarCtrl($scope) {
         $scope.isCollapsed = true;
     }
+    
+    $scope.$on('$viewContentLoaded', function(event) {
+    	$window.ga('send', 'pageview', { page: $location.url() });
+    });
+    
 
 });
 
@@ -69,3 +74,9 @@ casinocoin.config(['$routeProvider', '$locationProvider',
         }
     }
 ]);
+
+casinocoin.run(function ($rootScope, $location) {
+    $rootScope.$on('$routeChangeSuccess', function(){
+        ga('send', 'pageview', $location.path());
+    });
+});

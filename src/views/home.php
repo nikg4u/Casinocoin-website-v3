@@ -33,7 +33,7 @@
     <div class="row thirdBlock">
         <div class="col-md-4 a">
             <div class="inside">
-            <h2>Techincal Information</h2>
+            <h2>Technical Information</h2>
             <ul class="nolist">
 
                 <li class="algo">Scrypt proof-of-work</li>
@@ -102,7 +102,7 @@
             <input type="text" name="security_code" class="form-control redInput" />
             <label for="wallet_address">Wallet Address</label>
             <input type="text" name="wallet_address" class="form-control redInput" />
-            <button class="btn btn-lg btn-info pryptoSubmit">Submit</button>
+            <button class="btn btn-lg btn-info pryptoSubmit">Coming Soon</button>
         </div>
 
     </div>

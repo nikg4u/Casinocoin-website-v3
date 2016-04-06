@@ -12,6 +12,9 @@
     <base href="<?php echo WEBSITE_PATH ?>#/">
     <meta Name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>CasinoCoin - Revolutionizing the Way We Gamble</title>
+    <meta name="description" content="CasinoCoin is here to revolutionize the way we gamble. Casinocoin makes exchanging between peers quick, secure, and easy for everyone.">
+    <link rel="shortcut icon" href="https://casinocoin.org/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="<?php echo WEBSITE_PATH ?>assets/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="<?php echo WEBSITE_PATH ?>assets/css/custom.css">
     <link rel="stylesheet" type="text/css" href="<?php echo WEBSITE_PATH ?>assets/css/font.css">

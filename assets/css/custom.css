@@ -127,6 +127,10 @@ margin-top: 25px;
     font-size: 14px;
 }
 
+.inside h2 {
+color: white;
+}
+
 .inside p {
     line-height: 25px;
     color: #eee;
@@ -347,6 +351,7 @@ button.btn5 {
 
 
 .hiddenBackStripe {
+display: none;
     height: 180px;
     background: #A61B22;
     width: 100%;
