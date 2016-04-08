@@ -91,7 +91,23 @@
         </div>
 
     </div>
+<div class="row">
 
+    <div class="col-md-6">
+<div class="twitter">
+    <twitter-timeline>
+        <a class="twitter-timeline"
+           href="https://twitter.com/casinocoinnews/"
+           data-widget-id="717772572029501441">
+            Tweets from https://twitter.com/casinocoinnews
+        </a>
+        <twitter-timeline>
+</div>
+
+
+    </div>
+
+    <div class="twitter col-md-6">
     <div class="prypto">
         <h1 class="text-center pryptoH1">Prypto Card Redemption</h1>
         <h5 class="text-center"><a href="https://prypto.com/index.php?pg=qLS1s6rPyeLp5g==" target="_blank">Learn More</a></h5>
@@ -106,6 +122,7 @@
         </div>
 
     </div>
+        </div></div>
 
 
     <div class="row">

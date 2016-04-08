@@ -1,10 +1,10 @@
-var casinocoin = angular.module('myApp', ['ui.bootstrap', 'ngRoute']);
+var casinocoin = angular.module('myApp', ['ui.bootstrap', 'ngRoute', 'ngtweet']);
 
 casinocoin.controller('SearchController', function ($scope, $http, $window, $location) {
 
     $scope.sendMail = function (emailName, listName) {
         var data = {name: emailName, list: listName};
-        $http.post('https://casinocoin.org/src/inc/mail.php', data).then(function (data) {
+        $http.post('http://localhost/personal/casinocoin/src/inc/mail.php', data).then(function (data) {
         console.log(data);
             alert("Sent successfully");
         })

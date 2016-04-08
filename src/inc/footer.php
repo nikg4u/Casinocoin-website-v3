@@ -29,6 +29,7 @@
     <h3>CasinoCoin 2016</h3>
 </div>
 <script src="<?php echo WEBSITE_PATH ?>assets/js/angular.js"></script>
+<script src="<?php echo WEBSITE_PATH ?>assets/js/tweet.js"></script>
 <script src="<?php echo WEBSITE_PATH ?>assets/js/angular-resource.js"></script>
 <script src="<?php echo WEBSITE_PATH ?>assets/js/angular-route.js"></script>
 <script src="<?php echo WEBSITE_PATH ?>assets/js/angular-ui.js"></script>
